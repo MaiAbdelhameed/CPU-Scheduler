@@ -21,6 +21,7 @@ It is required to make a scheduler with its complementary components as sketched
 Process Generator (process_generator.c)
 ----------------------------------------
 The process generator should simulate a real operating systems as follows:
+---
 • It reads the input files containing the information about processes (check the input/output section below).
 • It gets the chosen scheduling algorithm and its parameters, if any, as command line arguments. These arguments are specified after the name of the program in the system command line, and their values are passed to the program during execution.
 • It initiates and creates the scheduler and clock processes.
