@@ -22,12 +22,12 @@ Process Generator (process_generator.c)
 ----------------------------------------
 The process generator should simulate a real operating systems as follows:
 ---
-• It reads the input files containing the information about processes (check the input/output section below).
-• It gets the chosen scheduling algorithm and its parameters, if any, as command line arguments. These arguments are specified after the name of the program in the system command line, and their values are passed to the program during execution.
-• It initiates and creates the scheduler and clock processes.
-• It creates a data structure for processes and fills it with its parameters (e.g. arrival time, running time, etc.)
-• It sends the information to the scheduler at the appropriate time (when a process arrives), so that the scheduler places it correctly in its turn among the existing processes. A process should not be sent to the scheduler until it arrives to the system.
-• At the end of simulation, the process generator should clear all IPC resources.
+• It reads the input files containing the information about processes (check the input/output section below).\n
+• It gets the chosen scheduling algorithm and its parameters, if any, as command line arguments. These arguments are specified after the name of the program in the system command line, and their values are passed to the program during execution. \n
+• It initiates and creates the scheduler and clock processes. \n
+• It creates a data structure for processes and fills it with its parameters (e.g. arrival time, running time, etc.)\n
+• It sends the information to the scheduler at the appropriate time (when a process arrives), so that the scheduler places it correctly in its turn among the existing processes. A process should not be sent to the scheduler until it arrives to the system.\n
+• At the end of simulation, the process generator should clear all IPC resources.\n
 
 Clock (clk.c)
 --------------
