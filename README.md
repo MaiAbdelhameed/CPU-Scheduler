@@ -52,9 +52,9 @@ The Scheduler is used to:
 
 Calculations
 -------------
-a) CPU utilization.
-b) Average Weighted Turnaround Time
-c) Average Waiting Time
+1) CPU utilization.
+2) Average Weighted Turnaround Time
+3) Average Waiting Time
 
 
 Process (process.c)
