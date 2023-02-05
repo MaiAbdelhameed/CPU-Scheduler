@@ -16,7 +16,7 @@ Language: C
 
 Assumptions: Consider a machine with 1-CPU and infinite memory. 
 It is required to make a scheduler with its complementary components as sketched in the following diagrams.
-![image](https://user-images.githubusercontent.com/82734074/216735644-dfc99e41-f465-4325-864e-77b8a6cf5fff.png)
+![image](https://user-images.githubusercontent.com/82734074/216795419-4a2c5612-681e-4bb8-a0ae-2b23dfa2d1d1.png)
 
 Process Generator (process_generator.c)
 ----------------------------------------
