@@ -11,8 +11,8 @@ Objectives
 * Practice the use of IPC techniques.
 * Best usage of algorithms, and data structures.
 
-Platform: Linux
-Language: C
+*Platform: Linux
+*Language: C
 
 Assumptions: Consider a machine with 1-CPU and infinite memory. 
 It is required to make a scheduler with its complementary components as sketched in the following diagrams.
