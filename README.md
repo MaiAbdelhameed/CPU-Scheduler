@@ -11,6 +11,8 @@ Objectives
 * Practice the use of IPC techniques.
 * Best usage of algorithms, and data structures.
 
+-------------------------------------------------
+
 * Platform: Linux
 * Language: C
 
